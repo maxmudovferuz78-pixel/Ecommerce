@@ -12,7 +12,7 @@ from products.serializers import ProductSerializer
 
 
 class CustomPagination(PageNumberPagination):
-    page_size = 3
+    page_size = 5
 
 
 class ProductViewSet(viewsets.ModelViewSet):
